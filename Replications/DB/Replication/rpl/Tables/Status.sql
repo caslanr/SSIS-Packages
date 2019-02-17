@@ -1,0 +1,5 @@
+﻿CREATE TABLE [rpl].[Status]
+(
+	[Id] SMALLINT NOT NULL PRIMARY KEY IDENTITY, 
+    [name] VARCHAR(50) NULL
+)

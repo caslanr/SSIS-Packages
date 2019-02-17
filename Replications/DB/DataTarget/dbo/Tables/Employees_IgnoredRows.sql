@@ -1,0 +1,20 @@
+﻿CREATE TABLE dbo.[Employees_IgnoredRows] (
+    [HashValue] [varchar](32),
+    [UniqueKey] [varchar](32),
+    [ActionType] [nvarchar](1),
+    [CreatedAt] [datetime],
+    [UpdatedAt] [datetime],
+    [DataSourceID] [smallint],
+    [Email] [nvarchar](255),
+    [FirstName] [nvarchar](50),
+    [LastName] [nvarchar](50),
+    [CompanyName] [nvarchar](50),
+    [Address] [nvarchar](50),
+    [City] [nvarchar](50),
+    [County] [nvarchar](50),
+    [State] [nvarchar](5),
+    [Zip] [nvarchar](10),
+    [Phone1] [nvarchar](12),
+    [Phone2] [nvarchar](12),
+    [Web] [nvarchar](255)
+)

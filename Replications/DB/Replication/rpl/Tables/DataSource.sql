@@ -1,0 +1,5 @@
+﻿CREATE TABLE [rpl].[DataSource]
+(
+	[Id] SMALLINT NOT NULL PRIMARY KEY IDENTITY, 
+    [name] VARCHAR(50) NOT NULL 
+)

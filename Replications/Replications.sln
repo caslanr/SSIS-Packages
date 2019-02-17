@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DataTargetDB", "DB\DataTarget\DataTargetDB.sqlproj", "{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ReplicationDB", "DB\Replication\ReplicationDB.sqlproj", "{485F52AF-79EF-4E14-8842-DE13BC52D49A}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ETL", "ETL\ETL.dtproj", "{ED7CA496-F905-4760-A437-1DB856D1A843}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SourceDB", "DB\DataSource\SourceDB.sqlproj", "{0E3BE36E-F550-431F-9069-469321F5C485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642B23ED-F3FF-4D2A-ADCD-547F8A5E07A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485F52AF-79EF-4E14-8842-DE13BC52D49A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ED7CA496-F905-4760-A437-1DB856D1A843}.Debug|Any CPU.ActiveCfg = Development
+		{ED7CA496-F905-4760-A437-1DB856D1A843}.Debug|Any CPU.Build.0 = Development
+		{ED7CA496-F905-4760-A437-1DB856D1A843}.Development|Any CPU.ActiveCfg = Development
+		{ED7CA496-F905-4760-A437-1DB856D1A843}.Development|Any CPU.Build.0 = Development
+		{ED7CA496-F905-4760-A437-1DB856D1A843}.Release|Any CPU.ActiveCfg = Development
+		{ED7CA496-F905-4760-A437-1DB856D1A843}.Release|Any CPU.Build.0 = Development
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3BE36E-F550-431F-9069-469321F5C485}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C487C2A2-ECBA-4D02-9463-DF68DA5434AA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DB\\DataSource\\SourceDB.sqlproj
+		SccProjectName1 = DB/DataSource
+		SccLocalPath1 = DB\\DataSource
+		SccProjectUniqueName2 = DB\\DataTarget\\DataTargetDB.sqlproj
+		SccProjectName2 = DB/DataTarget
+		SccLocalPath2 = DB\\DataTarget
+		SccProjectUniqueName3 = DB\\Replication\\ReplicationDB.sqlproj
+		SccProjectName3 = DB/Replication
+		SccLocalPath3 = DB\\Replication
+		SccProjectUniqueName4 = ETL\\ETL.dtproj
+		SccProjectName4 = ETL
+		SccLocalPath4 = ETL
+	EndGlobalSection
+EndGlobal
