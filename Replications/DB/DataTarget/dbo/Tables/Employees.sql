@@ -6,7 +6,6 @@
 	[CreatedAt]		[datetime]		NOT NULL,
     [UpdatedAt]		[datetime]			NULL,
 	[DataSourceID]	[smallint]		NOT NULL,
-	[ActionType]	[nchar](1)			NULL,
 	--[FileLogId]		[int]				NULL, -- optional; if source is file and want to know which rows came from which file.
 -- Source Fields
 	[Email]			[nvarchar](255) NOT NULL,
