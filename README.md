@@ -44,3 +44,4 @@ If do you want to learn more before downloading, please continue to read.
 
 
 Publish Database solutions on your dev environment and edit replication packages as you wish.
+So far tested with one table, please test it first for preventing any data losing.
