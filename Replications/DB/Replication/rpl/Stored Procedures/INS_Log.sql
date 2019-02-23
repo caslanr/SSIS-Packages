@@ -9,7 +9,9 @@
 			)
 as
 begin
- 
+
+if(@ParentId =-1)
+set @ParentId = null
 --select top 1 @LogId = [Log_id]
 --from rpl.[Log]
 --where	[execution_id]	= @ExecutionID and
